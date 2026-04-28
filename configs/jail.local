@@ -1,0 +1,10 @@
+[DEFAULT]
+bantime = 600
+findtime = 600
+maxretry = 5
+
+[sshd]
+enabled = true
+port = ssh
+logpath = /var/log/secure
+backend = systemd
